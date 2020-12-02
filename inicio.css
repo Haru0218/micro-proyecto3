@@ -1,0 +1,240 @@
+* {
+	padding:0px;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding-right: 0mm;
+    background: linear-gradient(180deg, #30708e 10%, #D7E7E4 90%);
+    height: 160vh;
+    
+}
+#header {
+    flex:  0 0 auto;
+    padding-right: 10px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+ul, ol {
+    list-style: none;
+}
+.navbar-logo{
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+}
+  .navbar-logo img{
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+.texto-logo{
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    font-size: 30px;
+    color: #fff;
+}
+.user{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+}
+.user img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.nav {
+    width:auto; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}
+.nav > li {
+    float: right;
+    margin: 10px;
+}
+
+.nav li a {
+  
+    color:#fff;
+    text-decoration:none;
+    padding:30px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#728FC4;
+}
+
+.nav li ul {
+    display:none;
+    min-width:120px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:left;
+}
+
+.nav li ul li ul {
+    right:-140px;   
+}
+table {
+    margin: auto;
+    width: 70%;
+    border: 1px solid #5271AB;
+    flex: 1 0 auto;
+    border-radius: 30px 30px 30px 30px;
+ }
+ th, td {
+    font-size: 16px;
+    width: 15%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #7780E0;
+    border-spacing: 0;
+    
+ }
+ th {
+     color: rgb(228, 217, 217);
+     background-color: #6A85B8 ;
+ }
+ td {
+    color:  rgb(3, 3, 3);
+    background-color: #ADCAFF;
+ }
+ .footer{
+    background: #84ABC2;
+    color:  rgb(3, 3, 3);
+    flex: 0 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+ }
+ .taco{  
+     justify-items: center;
+     margin: 10px;
+    width: 18%;
+    text-align: center;
+    color: white;
+}
+ #icTaco{
+    width: 120px;
+    height: 120px;
+}
+.vende{
+    width: 40px;
+    height: 40px;
+}
+.compra{
+    width: 40px;
+    height: 40px;
+}
+.eliminar{
+    width: 25px;
+    height: 25px;
+    
+}
+.container{
+    display: flex;
+    
+}
+.logo{
+    background-image: url("imaYenl/img/prod1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+.tecyto{
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    color: white;
+    font-weight: bold;
+    
+}
+.Descripcion{
+    display: flex;
+    width: 600px;
+    float: right;
+    margin: 10px;
+    flex-direction: column;    
+} 
+.descProduct{
+    text-align: center;
+    height: 48%;
+    margin: 10px;
+    border: #fff 1px solid;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px; 
+}
+.caracteristicasP{
+    text-align: center;
+    height: 48%;
+    margin: 10px;
+    border: #fff 1px solid;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+}
+.texto1{
+    color: rgb(63, 63, 63);
+}
+.texto{
+    color: rgb(63, 63, 63);
+    text-decoration: underline rgb(63, 63, 63);
+}
+.botonCompra{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#6A85B8;
+    border-radius: 6px;
+    margin-left: 45%;
+}
+.boton-NP{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #6A85B8;
+    border-radius: 6px;
+    float: right;
+    margin: 20px;
+  }
+  #cash{
+      width: 40px;
+      height: 40px;
+  }
+  #actualizar{
+      width: 40px;
+      height: 40px;
+  }
+  #eliminar{
+      width: 40px;
+      height: 40px;
+  }
+  .botones{
+    margin-left: 30%;
+}

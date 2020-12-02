@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../img/favicon.ico" sizes="16x16">
+    <title>ACME</title>
+   <!-- <link rel="stylesheet" href="../../inicio.css">-->
+    <link rel="stylesheet" href="formularioCompra.css">
+</head>
+<body>
+    <div id="header">
+        <ul class="nav">
+            <a class="navbar-logo">
+                <img id="logo" src="../img/login.png">
+            </a>
+            <a href="../../inicio.html" class="texto-logo">ACME</a>
+            <li><a class="user">
+                <img id="usuario" src="../img/user.png">
+                </a>
+                <ul>
+                    <li><a href="../../micro.html">Salir</a></li>
+                </ul>
+            </li>
+           
+            <li><a href="">Registros Clientes</a>
+                <ul><a href="regVentas.html">Ventas</a></ul>
+                <ul><a href="RegCotVentas.html">Cotizacion Ventas</a></ul>
+                <ul><a href="infoVentas.html">informacion Clientes</a></ul>
+            </li>
+            <li><a href="">Registros Proveedores</a>       
+                <ul><a href="regCompras.html">Compras</a></ul>
+                <ul><a href="RegCotProveedores.html">Cotizacion Compras</a></ul>
+                <ul><a href="infoProv.html">informacion Proveedores</a></ul>
+            </li>
+        </ul>
+    </div> 
+    <div class="boxP">
+        <h1>Factura</h1>
+            <form>
+                <div class="muchotxt">
+                    <table class="productosCompra">
+                        <tr>
+                            <th>Productos</th>
+                            <th>Cantidad</th>
+                            <th>Valor unidad</th>
+                            <th>Total</th>
+                          </tr>
+                          <tr>
+                              <td>Producto 1</td>
+                              <td>1</td>
+                              <td>$123456</td>
+                              <td>$123456</td>
+                          </tr>
+                         
+                            <th colspan="3" scope="rowgroup">Total a Pagar</th>
+                            <th>$1213456</th>
+                          </tr>
+                    </table>
+                    <br>
+                </div>
+                <div class="botones">
+                <input type="button" value="Imprimir" onclick="location.href='cotizacin.htm';">
+                <input type="button" value="Salir" onclick="location.href='../../inicio.html';">
+                <br>
+            </div>
+            </form>
+    </div>
+</body>
+</html>
